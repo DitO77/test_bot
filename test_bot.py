@@ -48,7 +48,7 @@ HEADERS = {
 
 # ✅ Display image (dog image)
 st.image("C:/Users/daksh/Downloads/dogi.jpg", caption="Therapist!", use_container_width=True)
-
+st.image("dogi.jpg", caption="Therapist!", use_container_width=True)
 # ✅ Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system", "content": "You are a helpful assistant."}]
