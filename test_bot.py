@@ -47,7 +47,7 @@ HEADERS = {
 }
 
 # ✅ Display image (dog image)
-st.image("https://raw.githubusercontent.com/DitO77/test_bot/main/dogi.jpg", caption="Therapist!", use_container_width=True)
+st.image("dogi.jpg", caption="Therapist!", use_container_width=True)
 
 # ✅ Initialize chat history
 if "messages" not in st.session_state:
